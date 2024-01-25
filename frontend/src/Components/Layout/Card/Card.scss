@@ -1,0 +1,38 @@
+$base-font-size: 16px; // Adjust based on your base font size
+
+.card-container {
+  width: 12.5rem; 
+  height: 18rem;
+  overflow: hidden;
+  box-shadow: 0px 0px 0.03125rem 0px; // 0.5px converted to rem
+  background-color: white;
+  margin: 2rem;
+  border-radius: 0.125rem; 
+  border: 0.125rem solid black; 
+  &:hover {
+    cursor: pointer;
+  }
+
+  .image {
+    width: 12.5rem; 
+    height: 9rem;
+    overflow: hidden;
+  }
+
+  .product-detail {
+    display: flex; 
+    flex-direction: column;
+    align-items: start;
+    margin: 0.5rem;
+    padding: 0.1rem;
+
+    h2,
+    h3,
+    p {
+      text-decoration: none !important;
+      border: none !important;
+      padding: 0.2rem !important;
+      margin: 0.2rem !important;
+    }
+  }
+}

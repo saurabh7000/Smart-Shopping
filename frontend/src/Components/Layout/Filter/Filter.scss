@@ -1,0 +1,64 @@
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width:max-content;
+  padding: 3px;
+  margin: 5px;
+  color: #113065;
+  background-color: whitesmoke;
+  
+  .clear {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 5px;
+    border-bottom: 1px solid black;
+
+    .clear-all {
+      color: red;
+    }
+  }
+
+  .category-container > div {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+
+    > input {
+      margin-left: 20px;
+    }
+
+    > h4 {
+      margin: 1px 5px;
+    }
+  }
+
+  .price-container > div {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+
+    > input {
+      margin-left: 20px;
+    }
+
+    > h4 {
+      margin: 1px 5px;
+    }
+  }
+
+  .rating-container > div {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+
+    > input {
+      margin-left: 20px;
+    }
+
+    > h4 {
+      margin: 1px 5px;
+    }
+  }
+}

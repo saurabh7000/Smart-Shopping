@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5rem;
+    height: 15rem;
+    margin: 1rem;
+}
+img{
+    &:hover{
+        cursor: pointer;
+    }
+}
+a{
+    text-decoration: none;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 100%;
+    .socials {
+        display: flex;
+        flex-direction: column;
+
+        .mobile {
+           
+
+            img {
+                width: 30%;
+                margin: 0.2rem;
+            }
+        }
+
+        .social {
+          
+
+            a {
+                margin: 0.2rem;
+            }
+        }
+    }
+
+    .customer {
+     
+        a {
+            margin: 0.2rem;
+        }
+    }
+}
+
+.copyRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 500px) {
+    .container {
+        width: 136%;
+        margin-left: 0rem;
+    }
+   
+}

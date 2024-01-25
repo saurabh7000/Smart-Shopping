@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+}
+
+.icon-style {
+  @extend .container; // Reuse styles from .container 
+}
+
+.icon {
+   @extend .icon-style; // Reuse styles from .icon-style 
+  color: #ffe234;
+}
